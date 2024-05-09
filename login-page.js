@@ -10,10 +10,10 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "user" && password === "web_dev") {
+    if (username === "svoc" && password === "123") {
         // If the credentials are valid, show an alert box and reload the page
         alert("You have successfully logged in.");
-        location.reload();
+        window.location.href = "http://stackoverflow.com";
     } else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
