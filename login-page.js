@@ -12,8 +12,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "svoc" && password === "123") {
         // If the credentials are valid, show an alert box and reload the page
-        alert("You have successfully logged in.");
-        window.location.href = "http://stackoverflow.com";
+        window.location.href = "https://steel101.github.io/Badday.txt";
     } else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
