@@ -14,10 +14,11 @@ loginButton.addEventListener("click", (e) => {
         // If the credentials are valid, show an alert box and reload the page
         window.location.href = "https://steel101.github.io/Badday.txt";
     }
-    if (username === "svoc" && password === "123" || username === "Svoc" && password === "123") {
+    else if (username === "svoc" && password === "123" || username === "Svoc" && password === "123") {
         // If the credentials are valid, show an alert box and reload the page
         window.location.href = "https://google.com";
-    }else {
+    }
+    else {
         // Otherwise, make the login error message show (change its oppacity)
         loginErrorMsg.style.opacity = 1;
     }
