@@ -10,7 +10,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "Bad" && password === "Note" || username === "bad" && password === "note" ) {
+    if (username === "Bad" && password === "Note" || username === "bad" && password === "note" || username === "Bad" && password === "note" || username === "bad" && password === "Note" ) {
         // If the credentials are valid, show an alert box and reload the page
         window.location.href = "https://steel101.github.io/Badday.txt";
     } else {
